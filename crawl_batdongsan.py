@@ -325,8 +325,9 @@ async def main():
     print("BatDongSan.com.vn Crawler")
     print("="*60)
 
-    # Run example - crawl apartments for sale
-    await example_crawl_ban_can_ho()
+    # Run example - crawl apartments for sale in both cities
+    await example_crawl_ban_can_ho_hn()
+    await example_crawl_ban_can_ho_hcm()
 
     # Uncomment to run other examples:
     # await example_crawl_cho_thue_nha()
